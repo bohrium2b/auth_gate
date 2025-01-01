@@ -1,1 +1,1 @@
-null
+{"data": {"providers": [{"name": "Zitadel", "url": "https://zitadel.leland.local", "clientId": "", "clientSecret": "", "endpoints": {"userinfo": "", "authorize": "", "accessToken": ""}}], "redirectUri": "https://authwall.leland.local"}}

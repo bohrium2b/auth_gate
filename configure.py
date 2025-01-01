@@ -10,7 +10,8 @@ def index():
 
 @app.route('/configure', methods=['POST'])
 def configure():
-    data = request.form.get('data')
+    data = request.json
+    print(data['data'])
     with open('config.json', 'w') as f:
         json.dump(data, f)
     return jsonify(data)
