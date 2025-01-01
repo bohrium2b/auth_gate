@@ -28,7 +28,7 @@ export const Configurator = () => {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(configuration)
+            body: JSON.stringify({data: configuration})
         })
     }
     return (
